@@ -1,0 +1,137 @@
+
+* {
+  font-family: BoxedRound;
+  text-shadow: 1px 1px #000000;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+	font-family: BoxedRound;
+	src: url('./BoxedRound.ttf');
+}
+
+#app {
+  font-family: BoxedRound;
+  color: white;
+}
+
+.chat-window {
+  position: absolute;
+  top: 3.5%;
+  left: 1.5%;
+  width: 22%;
+  height: 15%;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.0);
+  -webkit-animation-duration: 2s;
+}
+
+.messagebox{
+  font-size: 1.5vh !important;
+  padding: 0px;
+  margin-bottom: 0px;
+  width: fit-content;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: fadeInBottom;
+}
+
+.message {
+  font-size: 1.5vh !important;
+  margin-left: 5px;
+  color: white;
+
+}
+
+.chat-messages {
+  font-size: 1.5vh !important;
+  font-family: BoxedRound;
+  /* font-weight: bold; */
+  position: relative;
+  height: 95%;
+  margin: 0.2%;
+  text-shadow: 1px 1px black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.chat-input {
+  font-family: BoxedRound;
+  /* font-weight: bold; */
+  font-size: 1.60vh;
+  position: absolute;
+  border-radius: 5px; 
+  top: 30%;
+  left: 0.8%;
+  width: 25%;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.prefix {
+  font-family: BoxedRound;
+  font-weight: bold;
+  font-size: 1.6vh;
+  position: absolute;
+  margin-top: 0.7%;
+  margin-left: 0.9%;
+  left: 0.4%;
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 1; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 1;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+textarea {
+  font-family: BoxedRound;
+  font-size: 1.5vh;
+  box-sizing: border-box;
+  padding: 1%;
+  padding-left: 6%;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: #00000000;
+  width: 80%;
+  border-width: 0;
+  height: 21.04%;
+  resize: none;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.multiline {
+  font-family: BoxedRound;
+  white-space: pre-line;
+}
+
+.suggestions {
+  font-family: neonfont;
+  list-style-type: none;
+  padding: 10px;
+  font-size: 1.45vh !important;
+  box-sizing: border-box;
+  color: white;
+  background-color: #00000000;
+  overflow: hidden;
+  width: 80%;
+}
+
+.suggestion {
+  margin-bottom: 0.5%;
+}
+
+.hidden {
+  display: none;
+}
