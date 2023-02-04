@@ -8,7 +8,7 @@
 
 # Preview
 * Video: https://streamable.com/vqi6cx
-![](https://i.imgur.com/HrPPnji.png)
+* ![](https://i.imgur.com/HrPPnji.png)
 
 # Credits
 * Credits to Mr.NOBODY#6666 and Davee#3722 for the rpchat
