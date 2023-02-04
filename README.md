@@ -1,4 +1,4 @@
-# [QB]QB-RPCHAT AND CHAT
+# [QB] RPCHAT and CHAT by R4Develoment
 * Add roleplay commands and a beautiful interface to your QBCore FiveM server
 
 # Freatures
